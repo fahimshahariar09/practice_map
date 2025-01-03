@@ -25,7 +25,12 @@ class CustomButton extends StatelessWidget {
             height: 30,
             width: buttonWidth ?? MediaQuery.sizeOf(context).width,
             child: Center(
-              child: CustomTextWidget(text: text),
+              child: CustomTextWidget(
+                text: text,
+                fontSize: 20,
+                fontWeight: FontWeight.w500,
+                fontColor: Colors.white,
+              ),
             ),
           ),
         ),
