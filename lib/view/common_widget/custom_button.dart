@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key, required this.text, required this.onTap});
+  const CustomButton(
+      {super.key, required this.text, required this.onTap, this.buttonWidth});
 
   final String text;
   final VoidCallback onTap;
+  final double? buttonWidth;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +19,12 @@ class CustomButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(5),
             borderSide: BorderSide.none),
         child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15)),
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+          child: SizedBox(
+            height: 30,
+            width: buttonWidth ?? MediaQuery.sizeOf(context).width,
+          ),
+        ),
       ),
     );
   }
