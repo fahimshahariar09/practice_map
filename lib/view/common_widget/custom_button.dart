@@ -10,6 +10,8 @@ class CustomButton extends StatelessWidget {
       color: Colors.white,
       shape: OutlineInputBorder(
           borderRadius: BorderRadius.circular(5), borderSide: BorderSide.none),
+      child:
+          Padding(padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15)),
     );
   }
 }
