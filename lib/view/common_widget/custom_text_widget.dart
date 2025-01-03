@@ -29,13 +29,17 @@ class CustomTextWidget extends StatelessWidget {
       text,
       style: TextStyle(
           decorationStyle: TextDecorationStyle.solid,
-          decoration: textLineThrough == true ? TextDecoration.lineThrough : TextDecoration.none,
+          decoration: textLineThrough == true
+              ? TextDecoration.lineThrough
+              : TextDecoration.none,
           decorationThickness: 2.1,
-          color: Colors.white,
-          fontFamily: "RobotoSerif",
-          fontWeight: FontWeight.w500,
-          fontSize: 15,
-          overflow: TextOverflow.ellipsis),
+          color: fontColor,
+          fontFamily: fontFamily ?? "RobotoSerif",
+          fontWeight: fontWeight ?? FontWeight.w500,
+          fontSize: fontSize ?? 15,
+          overflow: textOverflow ?? TextOverflow.ellipsis),
+      maxLines: maxLine ?? 1,
+      textAlign: textAlign ?? TextAlign.start,
     );
   }
 }
