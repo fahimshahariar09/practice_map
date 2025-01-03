@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice/view/common_widget/custom_text_widget.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton(
@@ -23,6 +24,9 @@ class CustomButton extends StatelessWidget {
           child: SizedBox(
             height: 30,
             width: buttonWidth ?? MediaQuery.sizeOf(context).width,
+            child: Center(
+              child: CustomTextWidget(text: text),
+            ),
           ),
         ),
       ),
