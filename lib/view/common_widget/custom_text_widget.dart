@@ -35,7 +35,7 @@ class CustomTextWidget extends StatelessWidget {
           decorationThickness: 2.1,
           color: fontColor,
           fontFamily: fontFamily ?? "RobotoSerif",
-          fontWeight: fontWeight ?? FontWeight.w500,
+          fontWeight: fontWeight ?? FontWeight.normal,
           fontSize: fontSize ?? 15,
           overflow: textOverflow ?? TextOverflow.ellipsis),
       maxLines: maxLine ?? 1,
