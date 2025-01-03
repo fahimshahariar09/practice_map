@@ -5,6 +5,11 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card();
+    return Card(
+      margin: EdgeInsets.symmetric(vertical: 15, horizontal: 5),
+      color: Colors.white,
+      shape: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(5), borderSide: BorderSide.none),
+    );
   }
 }
