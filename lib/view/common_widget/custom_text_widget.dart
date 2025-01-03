@@ -29,7 +29,7 @@ class CustomTextWidget extends StatelessWidget {
       text,
       style: TextStyle(
           decorationStyle: TextDecorationStyle.solid,
-          decoration: TextDecoration.lineThrough,
+          decoration: textLineThrough == true ? TextDecoration.lineThrough : TextDecoration.none,
           decorationThickness: 2.1,
           color: Colors.white,
           fontFamily: "RobotoSerif",
