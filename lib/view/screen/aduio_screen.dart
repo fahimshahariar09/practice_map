@@ -1,8 +1,14 @@
+import 'package:flutter/material.dart';
+
 class AduioScreen extends StatelessWidget {
   const AduioScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Audio"),
+      ),
+    );
   }
 }
