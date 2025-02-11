@@ -5,6 +5,9 @@ class CustomNotification extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Icon(Icons.notifications,size: 20,);
+    return Icon(
+      Icons.notifications,
+      size: 20,
+    );
   }
 }
