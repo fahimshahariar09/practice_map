@@ -9,10 +9,10 @@ class AduioScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Audio"),
       ),
-      body:Column(
-        chirden [
+      body: Column(
+        children: [
 
-        ]
+        ],
       ),
     );
   }
