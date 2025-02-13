@@ -11,7 +11,7 @@ class AduioScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-
+          Text("data"),
         ],
       ),
     );
