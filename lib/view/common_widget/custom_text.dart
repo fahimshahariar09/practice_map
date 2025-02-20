@@ -5,6 +5,6 @@ class CustomText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("data");
+    return Text("data",style: TextStyle(color: Colors.blue),);
   }
 }
