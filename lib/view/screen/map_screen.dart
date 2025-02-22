@@ -8,7 +8,12 @@ class MapScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          Text(
+            "data",
+            style: TextStyle(
 
+            ),
+          )
         ],
       ),
     );
