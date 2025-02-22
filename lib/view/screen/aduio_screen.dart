@@ -11,8 +11,6 @@ class AduioScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Text("data"),
-          Text("data"),
           DraggableScrollableSheet(builder: (context, index) {
             return Container(
 
