@@ -11,7 +11,9 @@ class MapScreen extends StatelessWidget {
           Text(
             "data",
             style: TextStyle(
-
+              color: Colors.white,
+              fontSize: 15,
+              fontWeight: FontWeight.w300,
             ),
           )
         ],
