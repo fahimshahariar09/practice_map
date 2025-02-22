@@ -15,6 +15,12 @@ class MapScreen extends StatelessWidget {
               fontSize: 15,
               fontWeight: FontWeight.w300,
             ),
+          ),
+          Text(
+            "data",
+            style: TextStyle(
+
+            ),
           )
         ],
       ),
