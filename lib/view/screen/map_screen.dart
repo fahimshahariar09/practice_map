@@ -8,14 +8,6 @@ class MapScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text(
-            "data",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 15,
-              fontWeight: FontWeight.w300,
-            ),
-          ),
 
         ],
       ),
