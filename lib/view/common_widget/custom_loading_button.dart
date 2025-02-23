@@ -5,6 +5,11 @@ class CustomLoadingButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card();
+    return Card(
+      child: SizedBox(
+        height: 45,
+        child: CircularProgressIndicator(),
+      ),
+    );
   }
 }
