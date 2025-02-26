@@ -2,15 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:practice/view/screen/home_screen.dart';
 import 'package:provider/provider.dart';
 
-
 void main() {
   runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => Counter()),
-      ],
-      child: const MyApp(),
-    ),
+    const MyApp(),
   );
 }
 
@@ -25,4 +19,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
