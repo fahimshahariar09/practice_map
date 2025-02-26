@@ -2,4 +2,7 @@
 
 import 'package:flutter/foundation.dart';
 
-class SignInProvider  extends ChangeNotifier{}
+class SignInProvider  extends ChangeNotifier{
+  bool isLoading = false;
+  bool showPassword = true;
+}
