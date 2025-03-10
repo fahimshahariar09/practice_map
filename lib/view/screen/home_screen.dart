@@ -15,28 +15,8 @@ class HomeScreen extends StatelessWidget {
               fontSize: 15,
               fontWeight: FontWeight.w300,
             ),
-          ),Text(
-            "data",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 15,
-              fontWeight: FontWeight.w300,
-            ),
-          ),Text(
-            "data",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 15,
-              fontWeight: FontWeight.w300,
-            ),
-          ),Text(
-            "data",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 15,
-              fontWeight: FontWeight.w300,
-            ),
           ),
+
         ],
       ),
     );
