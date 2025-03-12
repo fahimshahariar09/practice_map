@@ -8,8 +8,11 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-Text("data"),
-Text("data"),
+          Text("data"),
+          Text("data"), Text("data"),
+          Text("data"), Text("data"),
+          Text("data"), Text("data"),
+          Text("data"),
         ],
       ),
     );
