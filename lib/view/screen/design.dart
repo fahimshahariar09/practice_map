@@ -23,6 +23,13 @@ class _DesignState extends State<Design> {
       appBar: AppBar(
         title: Text("design"),
       ),
+      body: Column(
+        children: [
+          GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (index,context){
+            return;
+          })
+        ],
+      ),
     );
   }
 }
