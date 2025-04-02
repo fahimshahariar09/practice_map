@@ -12,7 +12,9 @@ class _DesignState extends State<Design> {
     {"name": "fahim", "roll": 123, "dep": "cse"},
     {"name": "siddik", "roll": 456, "dep": "cse"},
     {"name": "sakib", "roll": 789, "dep": "cse"},
-    {"name": "sayam", "roll": 123, "dep": "cse"},
+    {"name": "sayam", "roll": 193, "dep": "cse"},
+    {"name": "mugdho", "roll": 423, "dep": "cse"},
+
   ];
 
   @override
